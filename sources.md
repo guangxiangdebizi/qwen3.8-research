@@ -12,7 +12,7 @@
 
 - **[O2] QwenCloud: Qwen3.8-Max model page**
   https://www.qwencloud.com/models/qwen3.8-max
-  用于：API 可用性、2.4T MoE、1M context、输入输出模态和内置工具。
+  用于：正式模型 ID `qwen3.8-max`、API 可用性、2.4T MoE、1M context、输入输出模态、定价、限流和内置工具。
 
 - **[O3] Alibaba Cloud Model Studio: supported web-search models**
   https://help.aliyun.com/en/model-studio/web-search
@@ -65,11 +65,16 @@
 - **[U2] Reddit：I built a complete Docker backup infrastructure with the new Qwen3.8-Max model**（2026-07-20）
   https://www.reddit.com/r/Qwen_AI/comments/1v174i8/i_built_a_complete_docker_backup_infrastructure/
   关联公开项目：https://github.com/Revolutionnnn/Docker-Vault
-  用于：真实项目正向案例；作者明确保留了人工引导、review 和测试，不可将其直接归因于模型。
+  用于：发布前、模型 ID 未披露的真实项目正向线索；作者明确保留了人工引导、review 和测试，不可将其直接归因于模型或正式版。
+
+- **[U3] Reddit：Did Qwen’s 10x/50x usage promo already end?**（2026-08-03）
+  https://www.reddit.com/r/Qwen_AI/comments/1ve4fon/did_qwens_10x50x_usage_promo_already_end/
+  用于：正式版上线后的套餐可用性、promo 切换和额度体验线索；不是性能测试。
 
 ## 读取规则
 
 1. [O1] 的数字是厂商自报；除非存在同配置的独立复现，不应写成“已经独立证实”。
 2. [O2]/[O3] 证明当前产品和 API 功能，不证明 benchmark 能力。
 3. [R1] 证明的是评测方法风险，不是对 Qwen3.8-Max 的具体指控。
-4. [E1]、[G1]、[C1] 至 [C4]、[T1]、[U1] 和 [U2] 是不同强度的第三方时间快照；其版本、端点和配置不能默认相同，也不能按帖数加权投票。
+4. [E1]、[G1]、[C1] 至 [C4]、[T1]、[U1] 至 [U3] 是不同强度的第三方时间快照；其版本、端点和配置不能默认相同，也不能按帖数加权投票。
+5. 正式版结论必须明确对应 `qwen3.8-max`；2026-08-03 前的材料不因标题写有 “Max” 而自动升级为正式版证据。版本映射见 `qwen3.8-max-current.md`。
