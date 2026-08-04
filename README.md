@@ -19,6 +19,7 @@
 | `benchmark-assessment.md` | 官方分数的重点摘录、评测条件和可相信的边界。 |
 | `training-and-contamination.md` | 已公开训练思路、数据污染风险，以及能与不能作出的推断。 |
 | `validation-plan.md` | 用私有/新鲜任务验证真实能力、规避 benchmark 过拟合的可执行方案。 |
+| `third-party-evidence.md` | 独立试验、LinuxDo、公开 Telegram、GitHub 与 Reddit 的分级证据台账。 |
 | `sources.md` | 官方页面、原始 API 记录和论文链接。 |
 
 ## 推荐使用方式
